@@ -1,0 +1,45 @@
+body{
+    background-image: url(pen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 500px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+h1{
+    color: burlywood;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    color: beige;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+input{
+    color: aliceblue;
+    height: 26px;
+    width: 50px;
+    border-radius: 10px;
+
+}
+textarea{
+    width: 350px;
+   border-radius: 20px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+button:hover{
+    background-color:blue;
+}

@@ -1,0 +1,155 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+#links{
+    border: solid 1px;
+    height: 38px;
+    background-color: navy;
+    line-height: 38px;
+}
+#text1,#text2,#text3,#text4,#text5{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 21px;
+}
+#text1{
+    padding-left: 35px;
+}
+
+.out1{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+}
+#in1,#in2{
+    border: solid 1px;
+    height: 150px
+}
+#in1{
+    width: 150px;
+
+}
+#in2{
+    width: 1200px;
+    text-align: center;
+    background-color: #fleaea90;
+}
+#clg{
+    font-size: 50px;
+    color: red;
+    
+}
+#txt1,#txt2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+#txt3{
+    font-size: 20px;
+    color: red;
+}
+#ugc{
+    background-color: brown;
+    height: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 160px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    line-height: 50px; 
+    border-radius: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+ul li {
+    list-style: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+ul li:hover{
+    background-color: red;
+}
+
+.logos{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    border: solid 1px;
+    height: 180px;
+    width: 180px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 40px;
+   
+}
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 400px;
+}
+#inbox1{
+    width: 400px;
+    background-image: url(bg1.webp);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    animation-name: imgchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange {
+    0%{
+        background-image: url(bg1.jpeg);
+    }
+     10%{
+        background-image: url(bg2.jpeg);
+    }
+     20%{
+        background-image: url(bits3.webp);
+    
+}
+ 30%{
+        background-image: url(bg3.jpeg);
+    
+}
+ 40%{
+        background-image: url(bits2.webp);
+    
+}
+#inbox2,#inbox3{
+    width: 400px;
+}
